@@ -7,7 +7,8 @@
 #include <cxcore.h>
 usingnamespace std;
 int main(){
-cv::Mat img1 = cv::imread("C:/Users/jabri/Desktop/pic20154.jpg");
+  /*image path*/
+cv::Mat img1 = cv::imread("C:/../image.jpg");
 vector<cv::Mat>bgr_planes;
 split( img1, bgr_planes );
 inthistosize = 256;
